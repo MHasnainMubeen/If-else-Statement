@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainDiv {
+    margin: 0px 150px;
+    margin-bottom: 75px;
+}
+
+.headingLine {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #1338be;
+    color: #fff;
+    padding: 15px 0px;
+    font-size: x-large;
+}
+
+.topLine {
+    margin-top: 30px;
+    text-align: center;
+    color: #1338be;
+    font-size: medium;
+}
+
+.Question {
+    margin-top: 30px;
+}
+
+.Answer {
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.animated-text {
+    font-size: 20px;
+    animation: animateText 3s infinite alternate ease-in-out;
+}
+
+@keyframes animateText {
+    from {
+        color: #333;
+        opacity: 1;
+    }
+
+    to {
+        color: #f0f0f0;
+        opacity: 0.3;
+    }
+}
+
+.animated-text {
+    font-size: 20px;
+    animation: animateText 3s infinite alternate ease-in-out;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.name {
+    margin-top: 20px;
+    text-align: center;
+}
+
+span {
+    margin-left: 20px;
+}
+
+.Q12 {
+    margin-left: 20px;
+}
+
+footer p {
+    margin-top: 70px;
+    text-align: center;
+    font-size: xx-large;
+    color: #00ffff;
+}
